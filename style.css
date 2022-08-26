@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+
+
+body{
+    height: 98vh;
+    background: rgb(254,125,163);
+    background: linear-gradient(180deg, rgba(254,125,163,1) 0%, rgba(254,183,204,1) 100%);
+    overflow: hidden; 
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.site-name{
+    font-size: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.nav{
+    width: 20vw;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.img-container{
+    height: 89vh;
+    margin-left: 100px;
+}
+
+.fav{
+    margin-left: 270px;
+    font-size: 30px;
+    margin-top: 55px;
+    font-weight: 400;
+}
+.sweet{
+    font-size: 50px;
+    margin-left: 270px;
+}
+.para{
+    font-size: 25px;
+    margin-left: 270px;
+    width: 550px;
+    margin-top: -30px;
+    font-weight: 400;
+}
+
+button{
+    width: 200px;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 270px;
+    border-radius: 50px;
+    border: 2px solid red;
+    background: transparent;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #fff;
+}
+li{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+i{
+    font-size: 30px;
+}
+li:hover{
+    color: pink;
+}
+
+.content{
+    display: flex;
+}
+img{
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+.products{
+    width: 450;
+    height: 35vh;
+    margin-left: 270px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.boxs{
+    text-align: center;
+    border: 1px solid black;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px 1px black;
+}
+.boxs img{
+    height: 100px;
+    margin-left: 7px;
+    margin-top: 4px;
+}
+.name{
+    width: 100px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.boxs button{
+    width: 90px;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 0;
+    margin-top: -10px;
+    border-radius: 50px;
+    border: 2px solid red;
+    background: transparent;
+    cursor: pointer;
+}
+.boxs i{
+    font-size: 20px;
+    padding-right: 10px;
+
+}
+.boxs button:hover{
+    background-color: pink;
+}
